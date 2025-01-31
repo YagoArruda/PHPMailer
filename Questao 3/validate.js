@@ -16,7 +16,7 @@ function validar() {
             })
                 .then(response => response.text())
                 .then(data => alertaELimparCampos("Email enviado!"))//: , data
-                .catch(error => console.error("Erro"));//: , error
+                .catch(error => alertaELimparCampos("Erro ao enviar email!"));//: , error
 
         }
         else {

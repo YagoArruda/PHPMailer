@@ -34,8 +34,8 @@ try {
 
     $mail->isHTML(true);                         
     $mail->Subject = "Mensagem de: " . $nome . " - " . $telefone;
-    $mail->Body    = "<span>Nome: " . $nome . "</span><br>" . "<span>Telefone: " . $telefone . "</span><br>" . "E-mail: " . $email . "<br>" . "Mensagem: " . $mensagem;
-    $mail->AltBody = "<span>Nome: " . $nome . "</span><br>" . "<span>Telefone: " . $telefone . "</span><br>" . "E-mail: " . $email . "<br>" . "Mensagem: " . $mensagem;
+    $mail->Body    = "<span>Nome: " . $nome . "</span><br>" . "<span>Telefone: " . $telefone . "</span><br>" . "E-mail: " . $email . "<br>" . "Mensagem: " . $mensagem . "<br>" ."<br>" ."Mensagens enviadas por este email tem apenas finalidade de teste.";
+    $mail->AltBody = "<span>Nome: " . $nome . "</span><br>" . "<span>Telefone: " . $telefone . "</span><br>" . "E-mail: " . $email . "<br>" . "Mensagem: " . $mensagem . "<br>" ."<br>" ."Mensagens enviadas por este email tem apenas finalidade de teste.";
 
     $mail->send();
     echo 'Email enviado';

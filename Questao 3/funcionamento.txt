@@ -1,5 +1,9 @@
 O email.php e o site.html devem ser rodados a partir do mesmo "servidor local" para funcionar, como utilizei 
 o liver server (five server) utilizei 127.0.0.1:5500 ao inves do localhost:8000, 
-para rodar o php usei "php -S 127.0.0.1:5500" e para o html utilizei o padrão da extensão mesmo
+para rodar o php usei "php -S 127.0.0.1:5500" e para o html utilizei o padrão da extensão mesmo.
 
 O script php esta com um email de teste que não possui informação relevante.
+
+Para evitar qualquer tipo de conflito é bom rodar ambos, email.php e o site.html a partir de dentro da pasta "Questao 3".
+
+Agauarde alguns segundos para que o envio sejá efetuado com sucesso.
