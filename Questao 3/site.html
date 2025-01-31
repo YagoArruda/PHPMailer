@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Teste - Yago</title>
+</head>
+
+<body class="m-0">
+    <header class="fundoHeader">
+        <img src="logo.png" class="logo">
+    </header>
+
+    <main class="grid">
+        <div>
+            <h1 class="pl-1 blue">Nome:</h1>
+            <h2 class="pl-1">Yago Arruda</h2>
+        </div>
+
+        <div class="borda">
+            <h1 class="pl-1 blue">Mensagem</h1>
+            <div class="pl-1">
+                
+                <div class="d-block m-1">
+                    <label for="nome" class="m-1">Nome <p class="asteriscoVermelho">*</p></label>
+                    <input type="name" id="nome" name="nome" class="inputEntrada pl-2" placeholder="João Carvalho">
+                </div>
+
+                <div class="d-block m-1">
+                    <label for="telefone" class="m-1">Telefone <p class="asteriscoVermelho">*</p></label>
+                    <input type="tel" id="telefone" name="telefone" class="inputEntrada pl-2" placeholder="(XX) XXXXX-XXXX" maxlength="15">
+                </div>
+
+                <div class="d-block m-1">
+                    <label for="email" class="m-1">E-mail <p class="asteriscoVermelho">*</p></label>
+                    <input type="email" id="email" name="email" class="inputEntrada pl-2" placeholder="email12@email.com">
+                </div>
+
+                <div class="d-block m-1 fixarNoMeio">
+                    <label for="mensagem" class="m-1">Mensagem <p class="asteriscoVermelho">*</p></label>
+                    <textarea type="text" id="mensagem" name="mensagem" class="pl-2" rows="4" cols="50" placeholder="Mensagem desejada"></textarea>
+                </div>
+
+            </div>
+
+            <div class="pl-1 m-1">
+                <button onclick="validar()" class="corBotao">Enviar Mensagem</button>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="fundoFooter">
+
+    </footer>
+</body>
+
+<script src="validate.js"></script>
+</html>

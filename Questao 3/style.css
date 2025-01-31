@@ -1,0 +1,87 @@
+.m-0 {
+    margin: 0;
+}
+
+.fundoHeader {
+    background-color: #117DB8;
+    width: 100%;
+    height: 100px;
+}
+
+.fundoFooter{
+    background-color: rgba(128, 128, 128, 0.226);
+    width: 100%;
+    height: 25px;
+}
+
+.corBotao{
+    background-color: #779918;
+    color: white;
+    width: 60%;
+    height: 30px;
+    font-weight: bold;
+    font-size: medium;
+    border-color: #779918;
+    transition: 0.5s;
+}
+
+.corBotao:hover{
+    background-color: #6b8a1d;
+    transition: 0.5s;
+}
+
+.logo {
+    height: 100%;
+    padding-left: 100px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.borda {
+    border: 2px solid rgba(0, 0, 0, 0.351);
+    /*border-radius: 10px;*/
+}
+
+.pl-1{
+    padding-left: 50px;
+}
+.pl-2{
+    padding-left: 5px;
+}
+
+.d-block{
+    display: block;
+}
+
+.m-1{
+    margin: 10px;
+}
+
+.inputEntrada{
+    height: 35px;
+    width: 400px;
+}
+
+.blue{
+    color: dodgerblue;
+}
+
+h1, h2, label, p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*fixar verticalmente no meio*/
+.fixarNoMeio{
+    display: flex;
+    align-items: center;
+}
+
+.asteriscoVermelho{
+    color: red;
+    display: inline;
+}
